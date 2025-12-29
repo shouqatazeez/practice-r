@@ -2,7 +2,8 @@ import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <TemproryName />
+    {/* <TemproryName /> */}
+    <Page2 />
     <Page />
   </div>
 );
@@ -26,6 +27,32 @@ function Page() {
         <li>To be very good at the code and desing</li>
         <li>To learn new things</li>
       </ol>
+    </div>
+  );
+}
+
+// The below example code is the challange code part-2
+import reactlogo from "./assets/react.svg";
+
+function Page2() {
+  return (
+    <div>
+      <header>
+        <img src={reactlogo} alt="react logo" width="200px" />
+      </header>
+
+      <main>
+        <h1>Reasons I'm exicted to learn React</h1>
+        <ol>
+          <li>To become the best frontend engineer</li>
+          <li>To be very good at the code and desing</li>
+          <li>To learn new things</li>
+        </ol>
+      </main>
+
+      <footer>
+        @ 2025 Shouqat Azeez development All rights are reservered
+      </footer>
     </div>
   );
 }
