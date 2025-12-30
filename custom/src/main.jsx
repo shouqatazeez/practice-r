@@ -38,6 +38,20 @@ function Header() {
     </header>
   );
 }
+
+function MainContent() {
+  return (
+    <main>
+      <h1>Reasons I'm exicted to learn React</h1>
+      <ol>
+        <li>To become the best frontend engineer</li>
+        <li>To be very good at the code and desing</li>
+        <li>To learn new things</li>
+      </ol>
+    </main>
+  );
+}
+
 // The below example code is the challange code part-2
 import reactlogo from "./assets/react.svg";
 
@@ -45,18 +59,7 @@ function Page2() {
   return (
     <>
       <Header />
-      <main>
-        <h1>Reasons I'm exicted to learn React</h1>
-        <ol>
-          <li>To become the best frontend engineer</li>
-          <li>To be very good at the code and desing</li>
-          <li>To learn new things</li>
-        </ol>
-      </main>
-
-      <footer>
-        @ 2025 Shouqat Azeez development All rights are reservered
-      </footer>
+      <MainContent />
     </>
   );
 }
