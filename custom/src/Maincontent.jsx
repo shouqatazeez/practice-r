@@ -5,11 +5,11 @@ const Maincontent = () => {
     <div>
       <main>
         <h1>Reasons I'm exicted to learn React</h1>
-        <ol>
+        <ul>
           <li>To become the best frontend engineer</li>
           <li>To be very good at the code and desing</li>
           <li>To learn new things</li>
-        </ol>
+        </ul>
       </main>
     </div>
   );
