@@ -1,0 +1,12 @@
+.nav-list {
+    list-style: none;
+    display:flex;
+    gap:30px;
+}
+.head{
+
+  display: flex;  
+  align-items: center;   
+   gap: 20px;      
+
+}

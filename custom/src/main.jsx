@@ -1,4 +1,7 @@
 import { createRoot } from "react-dom/client";
+import reactlogo from "./assets/react.svg";
+import "./index.css";
+
 const root = createRoot(document.getElementById("root"));
 root.render(
   <div>
@@ -23,10 +26,10 @@ function Page() {
 
 function Header() {
   return (
-    <header>
-      <img src={reactlogo} alt="react logo" width="200px" />
+    <header className="head">
+      <img src={reactlogo} alt="react logo" width="50px" height="50px" />
       <nav>
-        <ul>
+        <ul className="nav-list">
           <li>Pricing</li>
           <li>About</li>
           <li>Contact</li>
@@ -56,7 +59,6 @@ function Footer() {
 }
 
 // The below example code is the challange code part-2
-import reactlogo from "./assets/react.svg";
 
 function Page2() {
   return (
