@@ -31,16 +31,20 @@ function Page() {
   );
 }
 
+function Header() {
+  return (
+    <header>
+      <img src={reactlogo} alt="react logo" width="200px" />
+    </header>
+  );
+}
 // The below example code is the challange code part-2
 import reactlogo from "./assets/react.svg";
 
 function Page2() {
   return (
-    <div>
-      <header>
-        <img src={reactlogo} alt="react logo" width="200px" />
-      </header>
-
+    <>
+      <Header />
       <main>
         <h1>Reasons I'm exicted to learn React</h1>
         <ol>
@@ -53,6 +57,6 @@ function Page2() {
       <footer>
         @ 2025 Shouqat Azeez development All rights are reservered
       </footer>
-    </div>
+    </>
   );
 }
