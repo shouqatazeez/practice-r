@@ -2,20 +2,10 @@ import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById("root"));
 root.render(
   <div>
-    {/* <TemproryName /> */}
     <Page2 />
     <Page />
   </div>
 );
-
-function TemproryName() {
-  return (
-    <div>
-      <h1>This is the my first function component</h1>
-      <p>Hello every one</p>
-    </div>
-  );
-}
 
 // The below example code is the challange code part-1
 
