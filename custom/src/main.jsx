@@ -35,6 +35,13 @@ function Header() {
   return (
     <header>
       <img src={reactlogo} alt="react logo" width="200px" />
+      <nav>
+        <ul>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
   );
 }
