@@ -2,11 +2,18 @@
     list-style: none;
     display:flex;
     gap:30px;
+    padding: auto;
 }
 .head{
 
   display: flex;  
   align-items: center;   
-   gap: 20px;      
+   gap: 20px;  
+justify-content: space-between;
+padding:6px;
+}
 
+body{
+    background-color: black;
+    color: white;
 }
