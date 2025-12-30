@@ -52,6 +52,12 @@ function MainContent() {
   );
 }
 
+function Footer() {
+  return (
+    <footer>@ 2025 Shouqat Azeez development All rights are reservered</footer>
+  );
+}
+
 // The below example code is the challange code part-2
 import reactlogo from "./assets/react.svg";
 
@@ -60,6 +66,7 @@ function Page2() {
     <>
       <Header />
       <MainContent />
+      <Footer />
     </>
   );
 }
