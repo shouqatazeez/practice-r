@@ -1,9 +1,11 @@
 import React from "react";
+import reactLogo from "../assets/react.svg";
 
 const Nav = () => {
   return (
-    <div>
-      <h1>This is the nav component</h1>
+    <div className="nav">
+      <img src={reactLogo} className=" imglogo" alt="" />
+      <h1 className="heading">Reacts Facts</h1>
     </div>
   );
 };
