@@ -1,11 +1,8 @@
-body{
-  margin:10px;
-}
+
 nav{
   display: flex;
   align-items: center;
   padding: 15px 5px;
-  border: 1px solid white;
   background-color:#21222A;
   
 
@@ -21,9 +18,39 @@ nav{
 .heading{
 font-size: 1.6rem;
 font-weight: 700;
-color: rgb(13, 123, 151);
+color: rgb(81, 175, 199);
 
 }
 
 
+main{
+color: white;
+  background-color: black;
+  margin-left: 25px;
+  margin-top: 40px;
 
+}
+
+
+.unorder{
+  line-height: 2.0;
+  margin-top: 30px;
+}
+
+.unorder li {
+  margin-bottom: 8px;
+} 
+
+.unorder li::marker{
+  color:rgb(81, 175, 199) ;
+  font-size: 1.4rem;
+}
+
+
+body {
+  margin: 10px;
+  background-color: black;
+  padding: 5px;
+  border: 2px solid white;
+  min-height: 100vh;
+}
