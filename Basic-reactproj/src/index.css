@@ -25,9 +25,14 @@ color: rgb(81, 175, 199);
 
 main{
 color: white;
+min-height: 100vh;
   background-color: black;
   margin-left: 25px;
   margin-top: 40px;
+     
+  
+
+
 
 }
 
@@ -53,4 +58,5 @@ body {
   padding: 5px;
   border: 2px solid white;
   min-height: 100vh;
+
 }
