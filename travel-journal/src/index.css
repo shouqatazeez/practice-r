@@ -1,0 +1,20 @@
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 5px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 71, 71);
+
+}
+.heading{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+        
+    
+}
