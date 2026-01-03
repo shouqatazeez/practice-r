@@ -5,15 +5,24 @@ import locationmarker from "../src/assets/marker.png";
 const Entry = () => {
   return (
     <article>
-      <img src={mountfuji} alt="img" />
-      <img src={locationmarker} />
-      <p>Japan</p>
-      <h1>Mount Fuji</h1>
-      <p>12 Jan, 2021 - 24 Jan, 2021</p>
-      <p>
-        Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters.
-      </p>
-      <a href="https://goo.gl/maps/1DGM5WrWnATgkSNB8">View on Google Maps</a>
+      <div className="img-frame">
+        <img src={mountfuji} className="main-img" alt="img" />
+      </div>
+      <div className="content">
+        <span className="japanloc">
+          <img src={locationmarker} alt="marker" className="marker" />
+          Japan
+          <a href="https://goo.gl/maps/1DGM5WrWnATgkSNB8" className="link">
+            View on Google Maps
+          </a>{" "}
+        </span>
+
+        <h2>Mount Fuji</h2>
+        <p>12 Jan, 2021 - 24 Jan, 2021</p>
+        <p>
+          Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters.
+        </p>
+      </div>
     </article>
   );
 };
