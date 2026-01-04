@@ -1,0 +1,20 @@
+
+ .card{
+    height:300px ;
+    width:200px ;
+    overflow:hidden;
+      border: 2px solid black;
+
+ }
+
+ .cat1{
+object-fit:cover;
+height: 50%;
+width: 90%;
+margin: 10px 10px ;
+border-radius: 5px;
+ }
+
+ .cat1content{
+    margin-right: 15px;
+ }
