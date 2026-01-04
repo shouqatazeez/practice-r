@@ -37,6 +37,7 @@ article{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 5px;
  }
 
  .marker{
@@ -59,7 +60,7 @@ article{
 
  body{
       max-width: 600px;
-        margin: 4px auto;
+         margin: 4px auto;
 
 
  }
