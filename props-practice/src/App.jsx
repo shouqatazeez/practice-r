@@ -5,6 +5,8 @@ const App = () => {
   return (
     <div>
       <Contact />
+      <Contact />
+      <Contact />
     </div>
   );
 };
