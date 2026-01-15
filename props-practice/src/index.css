@@ -3,7 +3,9 @@
     height:300px ;
     width:200px ;
     overflow:hidden;
-      border: 2px solid black;
+   border: 2px solid black;
+   display: flex;
+
 
  }
 
